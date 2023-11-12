@@ -4,14 +4,14 @@
 - Most of the data also includes text data for voice, which can be used for multimodal modeling.
 
 ## Requirements
-- Each dataset can be downloaded from the link below, and each data file must be located in [the appropriate folder]().
-- We use pandas profiling utilizing the [simple EDA]().
+- Each dataset can be downloaded from the link below, and each data file must be located in [the appropriate folder](#project-structure).
+- We use pandas profiling utilizing the [simple EDA](https://github.com/standing-o/Combined_Dataset_for_Speech_Emotion_Recognition/blob/master/SpeechEDA.ipynb).
 ```
 conda install -c conda-forge ydata-profiling
 ```
 
 ## Collection of Dataset
-- A detailed description of each dataset is provided [here]().
+- A detailed description of each dataset is provided [here](https://github.com/standing-o/Combined_Dataset_for_Speech_Emotion_Recognition/blob/master/SpeechEDA.ipynb).
   - This jupyter notebook generates [a single data frame]() containing the entire data paths and features.
 
 ### 1) [CREMA-D (Crowd Sourced Emotional Multimodal Actors Dataset)](https://github.com/CheyneyComputerScience/CREMA-D#crema-d-crowd-sourced-emotional-multimodal-actors-dataset)
