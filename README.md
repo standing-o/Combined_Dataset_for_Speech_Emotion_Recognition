@@ -11,8 +11,8 @@ conda install -c conda-forge ydata-profiling
 ```
 
 ## Collection of Dataset
-- A detailed description of each dataset is provided [here](https://github.com/standing-o/Combined_Dataset_for_Speech_Emotion_Recognition/blob/master/SpeechEDA.ipynb).
-  - This jupyter notebook generates [a single data frame]() containing the entire data paths and features.
+- A detailed description of each dataset is provided [here](https://github.com/standing-o/Combined_Dataset_for_Speech_Emotion_Recognition/blob/master/report.html).
+  - This jupyter notebook generates [a single data frame](https://github.com/standing-o/Combined_Dataset_for_Speech_Emotion_Recognition/blob/master/speech_dataset.csv) containing the entire data paths and features.
 
 ### 1) [CREMA-D (Crowd Sourced Emotional Multimodal Actors Dataset)](https://github.com/CheyneyComputerScience/CREMA-D#crema-d-crowd-sourced-emotional-multimodal-actors-dataset)
 > License: Open Database License, https://opendatacommons.org/licenses/odbl/1-0/
