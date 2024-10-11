@@ -3,12 +3,23 @@
 - This dataset will help you create a generalized deep learning model for SER.
 - Most of the data also includes text data for voice, which can be used for multimodal modeling.
 
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+
 ## Requirements
 - Each dataset can be downloaded from the link below, and each data file must be located in [the appropriate folder](#project-structure).
 - We use pandas profiling utilizing the [simple EDA](https://github.com/standing-o/Combined_Dataset_for_Speech_Emotion_Recognition/blob/master/SpeechEDA.ipynb).
 ```
 conda install -c conda-forge ydata-profiling
 ```
+
+&nbsp;
+&nbsp;
+&nbsp;
+
 
 ## Collection of Dataset
 - A detailed description of each dataset is provided [here](https://github.com/standing-o/Combined_Dataset_for_Speech_Emotion_Recognition/blob/master/report.html).
