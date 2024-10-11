@@ -2,7 +2,7 @@
 - A collection of dataset consists of a total of 8 English speech emotion datasets.
 - This dataset will help you create a generalized deep learning model for SER.
 - Most of the data also includes text data for voice, which can be used for multimodal modeling.
-
+- Nov. 2, 2023 ~ Nov. 12, 2023
 
 &nbsp;
 &nbsp;
