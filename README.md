@@ -1,5 +1,5 @@
 # Combined Dataset for Speech Emotion Recognition (SER)
-- A collection of dataset consists of a total of 8 English speech emotion datasets.
+- A collection of dataset consists of a total of 8 English speech emotion dataset.
 - This dataset will help you create a generalized deep learning model for SER.
 - Most of the data also includes text data for voice, which can be used for multimodal modeling.
 - Nov. 2, 2023 ~ Nov. 12, 2023
@@ -10,8 +10,8 @@
 
 
 ## Requirements
-- Each dataset can be downloaded from the link below, and each data file must be located in [the appropriate folder](#project-structure).
-- We use pandas profiling utilizing the [simple EDA](https://github.com/standing-o/Combined_Dataset_for_Speech_Emotion_Recognition/blob/master/SpeechEDA.ipynb).
+- Each dataset can be downloaded from the link below, and each data file should be located in [the appropriate folder](#project-structure).
+- We use pandas profiling for [simple EDA](https://github.com/standing-o/Combined_Dataset_for_Speech_Emotion_Recognition/blob/master/SpeechEDA.ipynb).
 ```
 conda install -c conda-forge ydata-profiling
 ```
@@ -42,16 +42,16 @@ for Emotion Recognition in Conversation. (2018)
 EmotionLines: An Emotion Corpus of Multi-Party
 Conversations. arXiv preprint arXiv:1802.08379 (2018).
 
-- Number of Dataset: Train, Test, Dev (We only used the train data.)
-- MELD has 1400+ dialogues and 13,000+ utterances from 'Friends.
+- Train, Test, Dev (We only used the train data.)
+- MELD has 1400+ dialogues and 13,000+ utterances from Friends.
 - `Emotion` 7 Classes: Anger, Disgust, Sadness, Joy, Neutral, Surprise and Fear
 - `Sentiment`: Positive, Negative and Neutral
 
 ### 3) [MLEnd](https://www.kaggle.com/datasets/jesusrequena/mlend-spoken-numerals)
-> The MLEnd datasets have been created by students at the School of Electronic Engineering and Computer Science, Queen Mary University of London.
+> MLEnd has been created by students at the School of Electronic Engineering and Computer Science, Queen Mary University of London.
 
-- 31 nationalities and 42 unique languages, 154 speakers
-- Each audio recording corresponds to one English numeral (from "zero" to "billion") that is read using different intonations
+- 31 nationalities, 42 unique languages and 154 speakers
+- Each audio recording corresponds to one English numeral (from "zero" to "billion") that is read using different intonations.
 - Number of Dataset: 32654
 - `Emotion` 4 Classes: Neutral, Bored, Excited and Question
 - It contains `Nationality` feature.
@@ -59,7 +59,7 @@ Conversations. arXiv preprint arXiv:1802.08379 (2018).
 ### 4) [RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song)](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio)
 > Citation: "The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS)" by Livingstone & Russo is licensed under CC BY-NA-SC 4.0.
 
-- 24 professional actors (12 female, 12 male), two lexically-matched statements in a neutral North American accent. 
+- 24 professional actors (12 female, 12 male) and two lexically-matched statements in a neutral North American accent. 
 - Number of Dataset: 1440
 - `Emotion` 7 Classes: Calm, Happy, Sad, Angry, Fearful, Surprise and Disgust
 - Emotional `Intensity`: Normal, Strong
@@ -67,8 +67,8 @@ Conversations. arXiv preprint arXiv:1802.08379 (2018).
 ### 5) [SAVEE (Surrey Audio-Visual Expressed Emotion)](https://www.kaggle.com/datasets/ejlok1/surrey-audiovisual-expressed-emotion-savee)
 > License: Data files © Original Authors | Authors: Philip Jackson and Sanaul Haq
 
-- Four native English male speakers, aged from 27 to 31 years
-- A total of 120 utterances per speaker, 15 TIMIT sentences per emotion: 3 common, 2 emotion-specific and 10 generic sentences
+- Four native English male speakers and aged from 27 to 31 years
+- A total of 120 utterances per speaker and 15 TIMIT sentences per emotion: 3 common, 2 emotion-specific and 10 generic sentences
 - `Emotion` 7 Classes: Anger, Disgust, Fear, Happiness, Sadness and Surprise
 
 ### 6) [TESS (Toronto emotional speech set)](https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess)
@@ -102,13 +102,13 @@ Conversations. arXiv preprint arXiv:1802.08379 (2018).
 
 ```shell
 ├── dataset                      # Not contained in this repository
-│   ├── crema-d                  # CREMA-D dataset
-│   ├── meld                     # MELD dataset
-│   ├── mlend                    # MLEnd dataset
-│   ├── ravdess                  # RAVDESS dataset
-│   ├── savee                    # SAVEE dataset
-│   ├── tess                     # TESS dataset
-│   ├── esd                      # Emotional Voice Conversion: Theory, Databases and ESD dataset
+│   ├── crema-d                  # CREMA-D Dataset
+│   ├── meld                     # MELD Dataset
+│   ├── mlend                    # MLEnd Dataset
+│   ├── ravdess                  # RAVDESS Dataset
+│   ├── savee                    # SAVEE Dataset
+│   ├── tess                     # TESS Dataset
+│   ├── esd                      # Emotional Voice Conversion: Theory, Databases and ESD Dataset
 │   └── jl-corpus                # JL Corpus Dataset
 ├── MakeEngSpeechDataset.ipynb   # Make a Dataframe Including 8 Dataset
 ├── SpeechEDA.ipynb              # EDA using Pandas Profiling
