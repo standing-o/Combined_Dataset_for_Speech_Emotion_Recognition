@@ -42,7 +42,7 @@ for Emotion Recognition in Conversation. (2018)
 EmotionLines: An Emotion Corpus of Multi-Party
 Conversations. arXiv preprint arXiv:1802.08379 (2018).
 
-- Train, Test, Dev (We only used the train data.)
+- Train, Test and Dev (We only used the train data.)
 - MELD has 1400+ dialogues and 13,000+ utterances from Friends.
 - `Emotion` 7 Classes: Anger, Disgust, Sadness, Joy, Neutral, Surprise and Fear
 - `Sentiment`: Positive, Negative and Neutral
@@ -81,7 +81,7 @@ Conversations. arXiv preprint arXiv:1802.08379 (2018).
 ### 7) [Emotional Voice Conversion: Theory, Databases and ESD](https://hltsingapore.github.io/ESD/download.html)
 > Citation: Kun Zhou, Berrak Sisman, Rui Liu and Haizhou Li, "Seen and unseen emotional style transfer for voice conversion with a new emotional speech dataset" ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
 
-- 350 parallel utterances spoken by 10 native English and 10 native Mandarin speakers.
+- 350 parallel utterances were spoken by 10 native English and 10 native Mandarin speakers.
   - We only used English.
 - `Emotion` 5 Classes: Neutral, Happy, Angry, Sad and Surprise
 
