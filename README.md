@@ -10,7 +10,7 @@
 
 
 ## Requirements
-- Each dataset can be downloaded from the link below, and each data file should be located in [the appropriate folder](#project-structure).
+- Each dataset can be downloaded from the link below, and each data file should be located in [appropriate folders](#project-structure).
 - We use pandas profiling for [simple EDA](https://github.com/standing-o/Combined_Dataset_for_Speech_Emotion_Recognition/blob/master/SpeechEDA.ipynb).
 ```
 conda install -c conda-forge ydata-profiling
